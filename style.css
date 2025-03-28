@@ -61,7 +61,7 @@ p.section-one {
     max-width: 450px;
 }
 
-.header-links,
+.header-links a,
 .text.section-one {
     font-size: 18px;
     color: #E5E7EB;
@@ -84,6 +84,10 @@ p.section-one {
     margin: 0 8px;
 }
 
+.header-links a {
+    text-decoration: none;
+}
+
 .section-two {
     background-color: white;
 }
@@ -100,6 +104,7 @@ p.section-one {
     display: flex;
     justify-content: center;
     gap: 64px;
+    padding-bottom: 96px;
 }
 
 .image-container {
@@ -117,4 +122,75 @@ p.section-one {
     text-align: center;
     font-size: 18px;
     margin: 8px 0 0 0;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 84px 0 ;
+}
+
+.section-three.text {
+    margin: auto;
+    max-width: 790px;
+    padding: 0;
+}
+
+.section-three.content {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    text-align: start;
+}
+
+.section-three.author-text {
+    font-weight: bold;
+    text-align: end;
+    font-size: 24px;
+}
+
+.page-section.section-four {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 260px;
+    padding: 46px 0;
+    border-radius: 10px;
+}
+
+.section-four.text {
+    margin: 0;
+}
+
+.section-four.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.section-four.main-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-four.button {
+    color: #F9FAF8;
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 24px;
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer.text {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px 0;
+    margin: 0;
 }
